@@ -1,0 +1,38 @@
+!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Projeto Vínculos Dourados</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link para o arquivo CSS externo -->
+</head>
+<body>
+
+    <header>
+        <h1>Projeto Vínculos Dourados</h1>
+        <h2>Cadastro de Usuários</h2>
+    </header>
+
+    <main>
+        <section>
+            <p>
+                <!-- Link para o formulário da instituição -->
+                <a href="instituicao.html"><button class="instituicao">Instituição</button></a>
+            </p>
+            <p>
+                <!-- Link para o formulário de voluntário -->
+                <a href="voluntario.html"><button class="voluntario">Voluntário</button></a>
+            </p>
+            <p>
+                <!-- Link para o formulário de doador -->
+                <a href="doador.html"><button class="doador">Doador</button></a>
+            </p>
+            
+                <a href="pag1.html"><button class="voltar">Voltar inicio</button></a>
+
+        </section>
+    </main>
+
+</body>
+</html>
