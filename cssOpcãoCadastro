@@ -1,0 +1,72 @@
+/* Estilos para os títulos */
+h1, h2 { 
+    
+    text-align: center;
+    color: black;  /* Cor do texto */
+    margin-top: 1%;
+}
+
+/* Estilos gerais para o corpo da página */
+body {
+    background-image: black;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Estilos para os parágrafos */
+p {
+    text-align: center;
+    margin-top: 5%;
+}
+
+/* Estilos neutros para os botões */
+.instituicao, .doador, .voluntario, .voltar {
+    background-color: #d3d3d3;  /* Cor de fundo neutra (cinza claro) */
+    border-radius: 5px;
+    padding: 1em;
+    color: none;  /* Cor do texto neutra (cinza escuro) */
+    width: 550px;
+    margin-top: 1%;
+    border: black;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;  /* Transição suave ao passar o mouse */
+    background-color: var(--branco-principal); /*colocar escolher cor*/
+    border-radius: 5px;
+    padding: 0,1em;
+    color: var(--branco-principal); /*colocar escolher cor*/
+    width: 550px;
+    border-color: #000000;
+    
+    
+}
+
+/* Efeito hover para os botões */
+.instituicao:hover, .doador:hover, .voluntario:hover, .voltar:hover {
+    background-color: #b0b0b0;  /* Muda para um cinza um pouco mais escuro ao passar o mouse */
+}
+
+/* Estilos para os links */
+a:link {
+    color: black;  /* Cor do link não visitado */
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: #000000;
+}
+
+a:active {
+    color: blue;
+}
+.voltar{
+
+font-size: small;    
+border-color: #000000;
+}
