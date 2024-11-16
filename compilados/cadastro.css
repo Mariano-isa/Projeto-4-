@@ -1,0 +1,117 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos para o corpo */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 5px;
+}
+
+header h2 {
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+/* Estilos para a seção de informações */
+section.selec1 {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+
+}
+
+section.selec1 p {
+    font-size: 1.1em;
+    line-height: 1.8;
+    
+}
+
+/* Estilos para o main */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza os elementos no eixo vertical */
+    width: 300%;
+    
+}
+
+/* Estilos para o botão */
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 12px 0; /* Aumenta a altura do botão */
+    font-size: 1.2em; /* Aumenta o tamanho do texto */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 10px; /* Espaçamento entre os botões */
+    width: 100%; /* Faz com que o botão ocupe toda a largura disponível */
+    align-items: center;
+    }
+
+button:hover {
+    background-color: #333; /* Cor ao passar o mouse */
+}
+
+/* Botões específicos */
+button.instituicao {
+    background-color: #000000; /* Mantém a cor de fundo original */
+    width: 300px;
+    align-items: center;
+}
+
+button.voluntario {
+    background-color: #000000; /* Mantém a cor de fundo original */
+    width: 300px;
+}
+
+button.doador {
+    background-color: #000000; /* Mantém a cor de fundo original */
+    width: 300px;
+}
+
+button.voltar {
+    background-color: #000000; /* Mantém a cor de fundo original */
+    width: 300px;
+}
+
+/* Efeitos de hover para os botões específicos */
+button.instituicao:hover,
+button.voluntario:hover,
+button.doador:hover,
+button.voltar:hover {
+    opacity: 0.7; /* Efeito de opacidade ao passar o mouse */
+}
+
+/* Estilos para links dos botões */
+a {
+    text-decoration: none;
+}
